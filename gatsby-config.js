@@ -77,8 +77,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: "Inbio",
-                short_name: "inbio",
+                name: "Big Brain Ideas",
+                short_name: "BBI",
                 theme_color: "#ff014f",
                 background_color: "#ffffff",
                 display: "standalone",

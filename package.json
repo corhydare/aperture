@@ -1,9 +1,9 @@
 {
-  "name": "inbio-gatsby",
+  "name": "Big Brain Ideas",
   "version": "1.0.0",
   "private": true,
-  "description": "inbio-gatsby",
-  "author": "Rainbow IT",
+  "description": "Big Brain Ideas portfolio",
+  "author": "Danila Popov",
   "keywords": [
     "gatsby"
   ],

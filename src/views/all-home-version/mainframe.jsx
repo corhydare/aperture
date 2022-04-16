@@ -1,40 +1,29 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Hero from "../../components/hero/HeroLight";
+import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
-import Portfolio from "../../components/portfolio/PortfolioLight";
-import Blog from "../../components/blog/BlogLight";
+import Portfolio from "../../components/portfolio/Portfolio";
+import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
-import AnimatedCursor from "react-animated-cursor";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
-  { icon: "fa-user", menuName: "About" },
+  { icon: "fa-user", menuName: "Resume" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+
 ];
 
-const HomeLight = () => {
-  document.body.classList.add("light");
-
+const HomeDark = () => {
   return (
-    <div className="green">
+    <div className="yellow">
       <div className="demo-sticker">
-        <a href="/home-dark">
-          <i className="fa fa-moon-o" aria-hidden="true"></i>
+        <a href="/home-light">
+          <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
         </a>
       </div>
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="114, 182, 38"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.2}
-      />
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
@@ -78,7 +67,7 @@ const HomeLight = () => {
           {/* About Content Ends */}
 
           {/* Portfolio Content Starts */}
-          <TabPanel className="portfolio">
+          <TabPanel className="portfolio professional">
             <div
               className="title-section text-left text-sm-center"
               data-aos="fade-up"
@@ -180,4 +169,4 @@ const HomeLight = () => {
   );
 };
 
-export default HomeLight;
+export default HomeDark;

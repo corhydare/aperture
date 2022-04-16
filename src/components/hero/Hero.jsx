@@ -5,12 +5,9 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: "img/hero/dark.jpg",
   heroMobileImage: "img-mobile",
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroTitleName: "Danila Popov",
+  heroDesignation: "full stack developer",
+  heroDescriptions: `I'm Ukraine born creator of virtual spaces. Starting my career as a full stack developer.`,
   heroBtn: "more about me",
 };
 

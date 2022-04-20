@@ -7,7 +7,7 @@ const heroContent = {
   heroMobileImage: "img-mobile",
   heroTitleName: "Danila Popov",
   heroDesignation: "a full stack developer",
-  heroDescriptions: `I'm Ukraine born creator of virtual spaces. Starting my coding career as a full stack developer.`,
+  heroDescriptions: `Ukraine born creator of virtual spaces.`,
   heroBtn: "more about me",
 };
 

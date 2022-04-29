@@ -3,7 +3,7 @@ import Modal from "react-modal";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: "img/hero/dark.png",
+  heroImage: "/img/hero/dark.png",
   heroMobileImage: "img-mobile",
   heroTitleName: "Danila Popov",
   heroDesignation: "a full stack developer",

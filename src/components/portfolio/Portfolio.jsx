@@ -41,7 +41,7 @@ const Portfolio = () => {
               data-aos-delay="0"
             >
               <figure onClick={toggleModalOne}>
-                <img src="img/projects/1-cardiac-arrest.png" alt="Search App" />
+                <img src={process.env.PUBLIC_URL + "/img/projects/1-cardiac-arrest.png"} alt="Search App" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Cardiac Arrest</span>
                 </div>
@@ -78,7 +78,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalTwo}>
-                <img src="img/projects/2-shamazon.png" alt="Portolio" />
+                <img src={process.env.PUBLIC_URL + "/img/projects/2-shamazon.png"} alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Tech Blog</span>
                 </div>
@@ -115,7 +115,7 @@ const Portfolio = () => {
               data-aos-delay="200"
             >
               <figure onClick={toggleModalThree}>
-                <img src="img/projects/3-whatshouldyoudotoday.png" alt="Portolio" />
+                <img src={process.env.PUBLIC_URL + "/img/projects/3-whatshouldyoudotoday.png"} alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Weather App</span>
                 </div>
@@ -161,7 +161,7 @@ const Portfolio = () => {
               data-aos-delay="0"
             >
               <figure onClick={toggleModalOne}>
-                <img src="img/projects/1-cardiac-arrest.png" alt="Search App" />
+                <img src={process.env.PUBLIC_URL + "/img/projects/1-cardiac-arrest.png"} alt="Search App" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Cardiac Arrest</span>
                 </div>
@@ -198,7 +198,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalTwo}>
-                <img src="img/projects/2-shamazon.png" alt="Portolio" />
+                <img src={process.env.PUBLIC_URL + "/img/projects/2-shamazon.png"} alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Tech Blog</span>
                 </div>
@@ -233,7 +233,7 @@ const Portfolio = () => {
               data-aos-delay="200"
             >
               <figure onClick={toggleModalThree}>
-                <img src="img/projects/3-whatshouldyoudotoday.png" alt="Portolio" />
+                <img src={process.env.PUBLIC_URL + "/img/projects/3-whatshouldyoudotoday.png"} alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Weather App</span>
                 </div>

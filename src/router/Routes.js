@@ -10,11 +10,7 @@ const Routes = () => {
       <Router>
         <ScrollTopBehaviour />
         <Switch>
-          <Route
-            exact
-            path={process.env.PUBLIC_URL + "/"}
-            component={mainframe}
-          />
+          <Route exact path="/" component={mainframe} />
           <Route component={NotFound} />
         </Switch>
       </Router>

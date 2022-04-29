@@ -10,7 +10,7 @@ const Routes = () => {
       <Router>
         <ScrollTopBehaviour />
         <Switch>
-          <Route exact path="/" component={mainframe} />
+          <Route exact path="/aperture" component={mainframe} />
           <Route component={NotFound} />
         </Switch>
       </Router>

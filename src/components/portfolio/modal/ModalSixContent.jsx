@@ -18,7 +18,7 @@ const ModalSixContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Envato</span>
+              <span className="ft-wt-600 uppercase">nothing</span>
             </div>
             {/* End .col */}
 
@@ -34,11 +34,11 @@ const ModalSixContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://www.pexels.com/search/agency/"
+                  href="URL"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.pexels.com
+                  link
                 </a>
               </span>
             </div>
@@ -49,7 +49,7 @@ const ModalSixContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/project-6.jpg" alt="Portolio" />
+        <img src={process.env.PUBLIC_URL + "/img/projects/project-6.jpg"} alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

@@ -49,7 +49,7 @@ const ModalTwoContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/2-shamazon.png" alt="Portolio" />
+        <img src={process.env.PUBLIC_URL + "/img/projects/2-shamazon.png"} alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

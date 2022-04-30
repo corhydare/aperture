@@ -18,7 +18,7 @@ const ModalFourContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Videohive</span>
+              <span className="ft-wt-600 uppercase">nothing</span>
             </div>
             {/* End .col */}
 
@@ -34,11 +34,11 @@ const ModalFourContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://videohive.net/"
+                  href="URL"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.videohive.net
+                  link
                 </a>
               </span>
             </div>
@@ -54,9 +54,9 @@ const ModalFourContent = () => {
             id="video"
             className="responsive-video"
             controls
-            poster="img/projects/project-1.jpg"
+            poster={process.env.PUBLIC_URL + "/img/projects/project-1.jpg"}
           >
-            <source src="img/projects/video.mp4" type="video/mp4" />
+            <source src={process.env.PUBLIC_URL + "/img/projects/video.mp4"} type="video/mp4" />
           </video>
         </div>
         {/* Main Project Content Ends */}

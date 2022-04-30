@@ -59,7 +59,7 @@ const ModalThreeContent = () => {
           {/* End .row */}
         </figcaption>
         {/* Project Details Ends */}
-        <img src="img/projects/3-whatshouldyoudotoday.png" alt="Portolio" />
+        <img src={process.env.PUBLIC_URL + "/img/projects/3-whatshouldyoudotoday.png"} alt="Portolio" />
         {/*  Main Project Content Starts */}
         {/* <Slider {...settings}>
           <div className="slide_item">

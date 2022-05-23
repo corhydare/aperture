@@ -26,7 +26,6 @@ const NotFound = () => {
           >
             <Link to="/aperture">BACK TO HOME</Link>
           </div>
-          {/* End purchase_button */}
         </div>
       </div>
       {/* End .hero */}

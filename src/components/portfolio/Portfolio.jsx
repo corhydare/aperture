@@ -145,17 +145,17 @@ const Portfolio = () => {
             </li>
             {/* <!-- Portfolio Item Ends --> */}
 
-            
 
-            
+
+
           </ul>
         </TabPanel>
         {/* End All Project */}
-{/* second tab */}
+        {/* second tab */}
         <TabPanel>
           <ul className="row grid justify-content-center">
             {/* <!-- Portfolio Item Starts --> */}
-          <li
+            <li
               data-aos="fade-right"
               data-aos-duration="1200"
               data-aos-delay="0"
@@ -264,16 +264,15 @@ const Portfolio = () => {
             {/* <!-- Portfolio Item Ends --> */}
           </ul>
         </TabPanel>
-        
-{/* third tab */}
+
+        {/* third tab */}
         <TabPanel>
           <ul className="row grid justify-content-center">
             {/* <!-- Portfolio Item Starts --> */}
-            
-            {/* <!-- Portfolio Item Ends --> */}
+
           </ul>
         </TabPanel>
-        {/* End Video Project */}
+
 
       </div>
     </Tabs>

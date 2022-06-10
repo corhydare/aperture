@@ -34,7 +34,7 @@ const ModalOneContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://floating-temple-42927.herokuapp.com/"
+                  href="https://cardiac-arrest-3.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >

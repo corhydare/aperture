@@ -7,7 +7,7 @@ const heroContent = {
   heroMobileImage: "img-mobile",
   heroTitleName: "Danila Popov",
   heroDesignation: "a full stack developer",
-  heroDescriptions: `Ukraine born creator of virtual spaces. An aspiring full-stack developer switching from civil engineering to tech in software technology, while continuously learning
+  heroDescriptions: `Ukraine born creator of virtual spaces and an aspiring full-stack developer switching from civil engineering to tech in software technology, while continuously learning
   and creating new tools for the future.`,
   heroBtn: "more about me",
 };

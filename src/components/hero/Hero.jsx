@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Index from "../../components/about/index";
+import Index from "../about/index";
 
 const heroContent = {
   heroImage: "/img/hero/dark.png",

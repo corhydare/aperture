@@ -1,5 +1,5 @@
 import React from "react";
-// import Boxes from "./Boxes";
+
 import PersonalInfo from "./PersonalInfo";
 
 const index = () => {
@@ -33,7 +33,7 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href={`resume/resume.pdf`} download>
+                <a className="button" href={process.env.PUBLIC_URL + 'resume/resume.pdf'} download>
                   <span className="button-text">Download Resume</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>

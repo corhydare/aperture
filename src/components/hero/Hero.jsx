@@ -4,7 +4,7 @@ import Index from "../../components/about/index";
 
 const heroContent = {
   heroImage: "/img/hero/dark.png",
-  closeImage: "/img/cancel.svg",
+  closeImage: "cancel",
   heroMobileImage: "img-mobile",
   heroTitleName: "Danila Popov",
   heroDesignation: "a full stack developer",
@@ -61,7 +61,7 @@ const Hero = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src={`${heroContent.closeImage}`} alt="close" />
+            <img src={`img/${heroContent.closeImage}.svg`}  alt="close" />
           </button>
           {/* End close icon */}
 

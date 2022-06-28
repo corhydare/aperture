@@ -61,7 +61,7 @@ const Hero = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src={`${heroContent.closeImage}`} alt="close icon" />
+            <img src={`${heroContent.closeImage}`} alt="close" />
           </button>
           {/* End close icon */}
 
